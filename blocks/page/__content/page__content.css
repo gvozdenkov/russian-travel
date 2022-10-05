@@ -1,0 +1,23 @@
+.page__content {
+  max-width: 1280px;
+  min-width: 320px;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  min-height: 100vh;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --margin-side: 24px;
+  }
+}
+
+@media (max-width: 550px) {
+  :root {
+    --margin-side: 16px;
+  }
+}

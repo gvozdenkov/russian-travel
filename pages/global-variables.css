@@ -1,7 +1,9 @@
 :root {
-  --color-background-grey: #131313;
+  --color-background-default: #2a2c2f;
   --color-content-primary: #fff;
   --color-content-secondary: #aaa;
   --color-image-hover-on: rgba(42 44 47 / 0.8);
   --color-image-hover-off: rgba(42 44 47 / 0.3);
+
+  --margin-side: 48px;
 }
