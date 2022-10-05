@@ -10,3 +10,9 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/site-logo/site-logo.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__langs/header__langs.css);
+@import url(../blocks/header/__lang-btn/header__lang-btn.css);
