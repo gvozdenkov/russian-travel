@@ -6,4 +6,10 @@
   --color-image-hover-off: rgba(42 44 47 / 0.3);
 
   --margin-side: 48px;
+
+  --min-screen-width: 320px;
+  
+  /* for adaptive font size ratio */
+  --min-screen: 320;
+  --max-screen: 1280;
 }
