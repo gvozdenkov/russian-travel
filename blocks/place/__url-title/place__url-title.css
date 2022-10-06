@@ -1,0 +1,10 @@
+.place__url-title {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-content-secondary);
+  margin: 0;
+  margin-bottom: 12px;
+}

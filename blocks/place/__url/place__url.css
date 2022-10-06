@@ -1,0 +1,7 @@
+.place__url {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  grid-area: url;
+}
