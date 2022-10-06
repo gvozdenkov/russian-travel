@@ -1,0 +1,6 @@
+.img-cover__overlay_centered {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.img-cover__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-image-hover-off);
+  transition: all var(--trans-short) ease-out;
+}
+
+.cover__wrap-link:hover .img-cover__overlay {
+  background-color: var(--color-image-hover-on);
+}
