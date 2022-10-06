@@ -2,7 +2,6 @@
   display: grid;
   grid-template: repeat(3, 1fr) / repeat(4, 1fr);
   gap: 16px;
-  width: calc(100% - var(--margin-side) * 2);
 }
 
 @media (max-width: 1024px) {
