@@ -1,6 +1,7 @@
 .lead__cover-wrap {
-  max-height: 615px;
-  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   margin: 0 var(--margin-side);
 }
 
