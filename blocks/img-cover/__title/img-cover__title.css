@@ -12,7 +12,7 @@
 @media (max-width: 650px) {
   .img-cover__title {
     font-size: calc(
-      32px + 65 *
+      32px + 115 *
         (
           (100vw - var(--min-screen-width)) /
             (var(--max-screen) - var(--min-screen))

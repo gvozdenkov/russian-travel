@@ -11,7 +11,7 @@
 @media (max-width: 650px) {
   .img-cover__subtitle {
     font-size: calc(
-      14px + 40 *
+      14px + 10 *
         (
           (100vw - var(--min-screen-width)) /
             (var(--max-screen) - var(--min-screen))
