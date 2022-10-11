@@ -1,5 +1,4 @@
 .place {
-  width: 100%;
   display: grid;
   grid-template-rows: auto auto;
   grid-template-columns: minmax(320px, 1fr) 1.05fr;
@@ -7,12 +6,13 @@
     "title url"
     "image description";
   gap: 48px 40px;
+  margin: 0 var(--margin-side);
 }
 
 @media (max-width: 1024px) {
   .place {
     gap: 48px 32px;
-    grid-template-columns: minmax(320px, 1fr) 1.0363fr;
+    grid-template-columns: minmax(320px, 1fr) 1.032fr;
   }
 }
 
@@ -32,5 +32,6 @@
       "url"
       "image"
       "description";
+    margin: 0;
   }
 }

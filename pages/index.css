@@ -56,6 +56,7 @@
 @import url(../blocks/place/__description/place__description.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/__img/place__img.css);
+@import url(../blocks/place/__side-margin/place__side-margin.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links/footer__links.css);
