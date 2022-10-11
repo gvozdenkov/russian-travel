@@ -1,5 +1,5 @@
 @media (max-width: 700px) {
   .place__side-margin {
-    margin: var(--margin-side);
+    margin: 0 var(--margin-side);
   }
 }

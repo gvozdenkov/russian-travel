@@ -7,4 +7,5 @@
   align-self: flex-start;
   margin: 0;
   margin-left: var(--margin-side);
+  margin-top: 8px;
 }

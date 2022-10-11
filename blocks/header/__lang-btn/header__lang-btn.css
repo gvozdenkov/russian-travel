@@ -1,11 +1,7 @@
 .header__lang-btn {
   background-color: transparent;
   color: var(--content-primary);
-  border: 1px solid transparent;
+  border: none;
   padding: 0;
   cursor: pointer;
-}
-
-.header__lang-btn:hover {
-  border-bottom: 1px solid;
 }

@@ -8,7 +8,7 @@
   color: #fff;
   text-decoration: none;
   background: url(../../../images/footer_cover.jpg) center no-repeat;
-  background-size: contain;
+  background-size: cover;
   z-index: 0;
 }
 

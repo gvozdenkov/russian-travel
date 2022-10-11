@@ -14,6 +14,7 @@
       content="Россия, путешествие, куда поехать, интересные места"
     />
     <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico?v2" type="image/x-icon" />
     <title>Путешествие по России</title>
   </head>
   <body class="page">
@@ -25,12 +26,18 @@
           class="site-logo"
         />
         <ul class="header__langs">
-          <li><button class="header__lang-btn">Ru</button></li>
-          <li><button class="header__lang-btn">En</button></li>
+          <li>
+            <button
+              class="header__lang-btn header__lang-btn_selected link-hover"
+            >
+              Ru
+            </button>
+          </li>
+          <li><button class="header__lang-btn link-hover">En</button></li>
         </ul>
       </header>
       <main class="content">
-        <section class="lead content__lead">
+        <section class="lead content__lead page__section_size_l">
           <div class="lead__cover-wrap">
             <h1 class="lead__title">Путешествия по&nbsp;России</h1>
             <p class="lead__subtitle">
@@ -38,7 +45,7 @@
             </p>
             <img
               src="./images/header_cover.jpg"
-              alt="Вагон поезда, вид в окно, на полке спит женщина."
+              alt="Вид в окно из вагона поезда."
               class="lead__cover-img"
             />
           </div>
@@ -83,66 +90,66 @@
         <section class="photo-grid page__section">
           <img
             src="./images/photo-grid_01.jpg"
-            alt=""
+            alt="Вид в окно из вагона."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_02.jpg"
-            alt=""
+            alt="Вид с самолёта на снежные горы."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_03.jpg"
-            alt=""
+            alt="Рассвет на поле со стогами."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_04.jpg"
-            alt=""
+            alt="Вид с воздуха на лес в тумане."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_05.jpg"
-            alt=""
+            alt="Колесо машины на прозрачном льду Байкала."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_06.jpg"
-            alt=""
+            alt="Берег моря и горы вдали."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_07.jpg"
-            alt=""
+            alt="Горные снежные вершины."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_08.jpg"
-            alt=""
+            alt="Гора волнорезов и знак пешеходного перехода."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_09.jpg"
-            alt=""
+            alt="Горы в тумане с воздуха."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_10.jpg"
-            alt=""
+            alt="Гора и поле у подножия."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_11.jpg"
-            alt=""
+            alt="Заснеженные утёсы."
             class="photo-grid__item"
           />
           <img
             src="./images/photo-grid_12.jpg"
-            alt=""
+            alt="Горы в тумане с воздуха."
             class="photo-grid__item"
           />
         </section>
-        <section class="places">
+        <section class="places page__section_size_l">
           <article class="place">
             <h2 class="place__title place__side-margin">Куршская коса</h2>
             <div class="place__url place__side-margin">
@@ -185,7 +192,7 @@
             </div>
             <img
               src="./images/place_kolsky.jpg"
-              alt="Берег Куршского залива."
+              alt="Снежные каменистые горы."
               class="place__img"
             />
             <div class="place__description place__side-margin">
@@ -217,7 +224,7 @@
             </div>
             <img
               src="./images/place_altay.jpg"
-              alt="Берег Куршского залива."
+              alt="Вид на лес с веранды."
               class="place__img"
             />
             <div class="place__description place__side-margin">
@@ -247,7 +254,7 @@
             </div>
             <img
               src="./images/place_baikal.jpg"
-              alt="Берег Куршского залива."
+              alt="Потрескавшийся прозрачный лёд."
               class="place__img"
             />
             <div class="place__description place__side-margin">
@@ -276,7 +283,7 @@
             </div>
             <img
               src="./images/place_karelia.jpg"
-              alt="Берег Куршского залива."
+              alt="Изгиб реки и лесистые берега."
               class="place__img"
             />
             <div class="place__description place__side-margin">
@@ -294,7 +301,7 @@
             </div>
           </article>
         </section>
-        <section class="cover">
+        <section class="cover page__section_size_xl">
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             target="_blank"
@@ -311,27 +318,42 @@
       <footer class="footer page__section">
         <ul class="footer__links">
           <li>
-            <a href="https://yandex.ru/maps" class="footer__link link-hover"
+            <a
+              href="https://yandex.ru/maps"
+              class="footer__link link-hover"
+              target="_blank"
               >Карты</a
             >
           </li>
           <li>
-            <a href="https://yandex.ru/pogoda" class="footer__link link-hover"
+            <a
+              href="https://yandex.ru/pogoda"
+              class="footer__link link-hover"
+              target="_blank"
               >Погода</a
             >
           </li>
           <li>
-            <a href="https://rasp.yandex.ru" class="footer__link link-hover"
+            <a
+              href="https://rasp.yandex.ru"
+              class="footer__link link-hover"
+              target="_blank"
               >Расписание</a
             >
           </li>
           <li>
-            <a href="https://calendar.yandex.ru" class="footer__link link-hover"
+            <a
+              href="https://calendar.yandex.ru"
+              class="footer__link link-hover"
+              target="_blank"
               >Календарь</a
             >
           </li>
           <li>
-            <a href="https://travel.yandex.ru" class="footer__link link-hover"
+            <a
+              href="https://travel.yandex.ru"
+              class="footer__link link-hover"
+              target="_blank"
               >Путешествия</a
             >
           </li>

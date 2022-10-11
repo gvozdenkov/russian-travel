@@ -5,7 +5,13 @@
   max-width: 720px;
   text-align: center;
   margin: 0;
-  margin-bottom: 32px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 1024px) {
+  .lead__subtitle {
+    margin-bottom: 56px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -18,5 +24,6 @@
         )
     );
     line-height: 1.25;
+    margin-bottom: 40px;
   }
 }

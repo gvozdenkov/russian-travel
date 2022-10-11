@@ -1,7 +1,7 @@
 .place {
   display: grid;
   grid-template-rows: auto auto;
-  grid-template-columns: minmax(320px, 1fr) 1.05fr;
+  grid-template-columns: minmax(320px, 1fr) 1.053fr;
   grid-template-areas:
     "title url"
     "image description";

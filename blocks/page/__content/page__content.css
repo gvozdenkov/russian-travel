@@ -6,7 +6,6 @@
   flex-flow: column nowrap;
   align-items: center;
   min-height: 100vh;
-  border: 1px solid;
 }
 
 @media (max-width: 768px) {
