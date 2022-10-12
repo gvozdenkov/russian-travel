@@ -15,3 +15,15 @@
   --min-screen: 320;
   --max-screen: 1280;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --margin-side: 24px;
+  }
+}
+
+@media (max-width: 550px) {
+  :root {
+    --margin-side: 16px;
+  }
+}

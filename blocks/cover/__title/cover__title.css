@@ -1,4 +1,4 @@
-.img-cover__title {
+.cover__title {
   font-size: 72px;
   font-weight: 900;
   line-height: 1.06;
@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 650px) {
-  .img-cover__title {
+  .cover__title {
     font-size: calc(
       32px + 115 *
         (

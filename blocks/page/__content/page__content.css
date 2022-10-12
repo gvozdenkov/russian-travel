@@ -7,15 +7,3 @@
   align-items: center;
   min-height: 100vh;
 }
-
-@media (max-width: 768px) {
-  :root {
-    --margin-side: 24px;
-  }
-}
-
-@media (max-width: 550px) {
-  :root {
-    --margin-side: 16px;
-  }
-}

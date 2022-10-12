@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .place {
     grid-template-rows: none;
     grid-template-columns: none;
