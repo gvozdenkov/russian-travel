@@ -28,6 +28,7 @@
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__lead__title/lead__title.css);
 @import url(../blocks/lead/__lead__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__img-wrapper/lead__img-wrapper.css);
 @import url(../blocks/lead/__cover-img/lead__cover-img.css);
 @import url(../blocks/lead/__img-description/lead__img-description.css);
 

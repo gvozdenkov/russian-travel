@@ -12,7 +12,7 @@
 @media (max-width: 1024px) {
   .place {
     gap: 48px 32px;
-    grid-template-columns: minmax(320px, 1fr) 1.032fr;
+    grid-template-columns: minmax(220px, 1fr) 1.032fr;
   }
 }
 
@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 625px) {
   .place {
     grid-template-rows: none;
     grid-template-columns: none;
