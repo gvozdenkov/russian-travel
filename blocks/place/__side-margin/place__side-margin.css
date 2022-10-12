@@ -1,4 +1,4 @@
-@media (max-width: 625px) {
+@media (max-width: 600px) {
   .place__side-margin {
     margin: 0 var(--margin-side);
   }
